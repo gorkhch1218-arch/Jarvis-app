@@ -1,4 +1,5 @@
 [app]
+
 title = Jarvis
 package.name = jarvis
 package.domain = org.test
@@ -8,8 +9,10 @@ version = 0.1
 requirements = python3,kivy
 orientation = portrait
 fullscreen = 0
+permissions = INTERNET
 android.archs = arm64-v8a
 
 [buildozer]
+
 log_level = 2
 warn_on_root = 1
